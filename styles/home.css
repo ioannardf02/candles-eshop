@@ -1,0 +1,54 @@
+body {
+    background-color: #cfc8c5;
+}
+
+#btn_img {
+    position: absolute;
+    top: 105%;
+    left: 55%;
+    transform: translate(-90%, -90%);
+    -ms-transform: translate(-90%, -90%);
+    background-color: black;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#btn_img:hover {
+    background-color: aliceblue;
+    color: black;
+
+}
+
+#bg {
+    background-image: url(https://www.lucidcandle.com/cdn/shop/files/BlessThisHomeAndBlackPillarsStraightWhiteGateFoyer1900x1069_1400x.jpg?v=1626288827);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0px 10px;
+
+}
+
+#bg_reg {
+    background-image: url(https://www.balticcandles.com/wp-content/uploads/2021/12/DobelesSveces_foto_46-Medium.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0px 0px;
+}
+
+#pro_id:hover {
+    opacity: 0.4;
+    transition: 0.5s ease-out;
+
+}

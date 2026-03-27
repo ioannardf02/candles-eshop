@@ -1,0 +1,11 @@
+.heart-icon {
+    color: #000;
+    /* Default color (black or any other color you prefer) */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+}
+
+.bi-heart-fill {
+    color: #f00;
+    /* Red color for filled heart */
+}
